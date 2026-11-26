@@ -286,7 +286,6 @@ start_udpxy(char *wan_ifname)
 		"-c", nvram_safe_get("udpxy_clients"),
 		"-M", nvram_safe_get("udpxy_renew_period")
 		);
-#endif
 }
 
 #if defined(APP_XUPNPD)
